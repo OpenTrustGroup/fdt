@@ -1,0 +1,28 @@
+cc_library_static {
+    name: "libfdt_vendor",
+    vendor: true,
+    srcs: [
+        "fdt.c",
+        "fdt_addresses.c",
+        "fdt_empty_tree.c",
+        "fdt_ro.c",
+        "fdt_rw.c",
+        "fdt_strerror.c",
+        "fdt_sw.c",
+        "fdt_wip.c",
+    ],
+    compile_multilib: "64",
+    cflags: [
+        "-Wno-macro-redefined",
+    ],
+    local_include_dirs: [
+        "include",
+    ],
+    export_include_dirs: [
+        "include",
+    ],
+    header_libs: [
+        "zircon_system_headers",
+    ]
+
+}
