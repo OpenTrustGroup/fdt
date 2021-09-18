@@ -1,6 +1,6 @@
 cc_library_static {
     name: "libfdt_vendor",
-    vendor: true,
+    vendor_available: true,
     srcs: [
         "fdt.c",
         "fdt_addresses.c",
