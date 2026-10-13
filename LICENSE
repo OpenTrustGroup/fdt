@@ -1,4 +1,5 @@
-Zircon chooses to use the BSD License (option b):
+GoldenRiver Technology Co., Ltd. elects the BSD License (option b)
+for this delivery:
 
  * libfdt - Flat Device Tree manipulation
  * Copyright (C) 2006 David Gibson, IBM Corporation.
